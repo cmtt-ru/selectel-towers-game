@@ -1,0 +1,88 @@
+{
+  "bundles": [
+    {
+      "name": "background-screen",
+      "assets":[
+        {
+          "name": "background_1",
+          "srcs": "./assets/background/background_1.svg"
+        },
+        {
+          "name": "background_2",
+          "srcs": "./assets/background/background_2.svg"
+        },
+        {
+          "name": "background_3",
+          "srcs": "./assets/background/background_3.svg"
+        },
+        {
+          "name": "background_4",
+          "srcs": "./assets/background/background_4.svg"
+        }
+     ]
+    },
+    {
+      "name": "crane",
+      "assets":[
+        {
+          "name": "bracket",
+          "srcs": "./assets/crane/bracket.svg"
+        }
+     ]
+    },
+    {
+      "name": "servers",
+      "assets":[
+        {
+          "name": "server-0-off",
+          "srcs": "./assets/servers/start/off.svg"
+        },
+        {
+          "name": "server-0-on",
+          "srcs": "./assets/servers/start/on.svg"
+        },
+        {
+          "name": "server-1-off",
+          "srcs": "./assets/servers/1/off.svg"
+        },
+        {
+          "name": "server-1-on",
+          "srcs": "./assets/servers/1/on.svg"
+        },
+        {
+          "name": "server-2-off",
+          "srcs": "./assets/servers/2/off.svg"
+        },
+        {
+          "name": "server-2-on",
+          "srcs": "./assets/servers/2/on.svg"
+        },
+        {
+          "name": "server-3-off",
+          "srcs": "./assets/servers/3/off.svg"
+        },
+        {
+          "name": "server-3-on",
+          "srcs": "./assets/servers/3/on.svg"
+        }
+     ]
+    },
+    {
+      "name": "dino",
+      "assets":[
+        {
+          "name": "cloak",
+          "srcs": "./assets/dino/cloak.svg"
+        },
+        {
+          "name": "airplane",
+          "srcs": "./assets/dino/airplane.svg"
+        },
+        {
+          "name": "rocket",
+          "srcs": "./assets/dino/rocket.svg"
+        }
+     ]
+    }
+  ]
+}
