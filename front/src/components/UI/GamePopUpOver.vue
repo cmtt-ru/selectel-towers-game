@@ -23,12 +23,6 @@ export default defineComponent({
   components: {
     GameButtonAgainVue,
   },
-  props: {
-    score: {
-      type: Number,
-      default: 100,
-    },
-  },
   setup(_, { emit }) {
     const store = useStore();
 

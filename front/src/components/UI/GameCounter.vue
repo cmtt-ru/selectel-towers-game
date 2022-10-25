@@ -8,12 +8,6 @@ import { useStore } from 'vuex';
 
 export default defineComponent({
   name: 'GameCounter',
-  props: {
-    counter: {
-      type: String,
-      default: '243',
-    },
-  },
   setup() {
     const store = useStore();
     const maxCounterLength = 5;
