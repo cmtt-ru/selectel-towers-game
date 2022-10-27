@@ -73,7 +73,7 @@ bot.on("callback_query", (query) => {
 const app = express();
 
 /**
- * Раздаём файлы: в нашем случае они лежат рядом, в папке t-rex-game.
+ * Раздаём файлы: в нашем случае они лежат рядом, в папке t-rex-game
  */
 app.use(express.static(path.join(__dirname, "t-rex-game")));
 
