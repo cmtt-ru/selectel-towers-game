@@ -1,12 +1,12 @@
 /**
- * Импротируем настройки из лежащего в той же папке файла .env
+ * Импортируем настройки из лежащего в той же папке файла .env
  */
 require("dotenv").config();
 
 const { TELEGRAM_API_TOKEN, GAME_URL, GAME_NAME } = process.env;
 
 /**
- * Подключаем библиотеки для работы с вебом, раздачи файлов и работы с Телеграм.
+ * Подключаем библиотеки для работы с вебом, раздачи файлов и работы с Телеграм
  */
 const express = require("express");
 const path = require("path");
@@ -19,7 +19,7 @@ const bot = new TelegramBot(TELEGRAM_API_TOKEN, { polling: true });
 const queries = {};
 
 /**
- * На каждое сообщение боту отвечаем нашей игрой
+ * На каждое сообщение боту отвечаем нашей игрой.
  * К сообщению с игрой можно прикрепить кнопку для начала игры
  * и кнопку для отправки её друзьям, мы реализуем обе
  */
@@ -72,6 +72,9 @@ bot.on("callback_query", (query) => {
  */
 const app = express();
 
+/**
+ * Раздаём файлы: в нашем случае они лежат рядом, в папке t-rex-game
+ */
 app.use(express.static(path.join(__dirname, "t-rex-game")));
 
 /**
